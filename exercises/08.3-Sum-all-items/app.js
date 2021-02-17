@@ -1,8 +1,12 @@
 function sumTheElements(theArray){
 	
 	var total = 0;
-	
+      
 	//your code here
-
-	return total;
+     
+      for (const i of theArray){
+        total += i;
+      }
+    return total
 }
+
