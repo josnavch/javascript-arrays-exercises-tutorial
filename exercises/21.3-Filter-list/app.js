@@ -2,4 +2,18 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
+function filterByName (array, filtro){
+    let newArray = [];
+    let find = array.filter( function(value){
+    //    let nombre = value.toLowerCase();
+          let nombre = value;
+   //     console.log(nombre)
+
+        if (nombre.includes(filtro)){
+             newArray.push(value)
+        }
+    });
+     return newArray
+}
+
 console.log(filterByName(names, 'am'));
