@@ -19,7 +19,7 @@ function mergeTwoList (list_of_numbers){
     }
     newArray = odd.concat(even);
     
-    console.log(newArray)
+    return newArray
   
 }
 
